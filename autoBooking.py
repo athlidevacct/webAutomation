@@ -2,7 +2,6 @@
 """
 Created on Sat Jun 27 09:34:15 2020
 
-@author: alfredli
 """
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -59,7 +58,7 @@ class autoBooking:
         return month, date
     
     def openBrowser(self):
-        return self.driver.get("https://mtr.condecosoftware.com/login/login.aspx")
+        return self.driver.get(self.webURL)
     
     def closeBrowser(self):
         self.driver.close()
