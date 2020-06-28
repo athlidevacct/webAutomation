@@ -2,7 +2,6 @@
 """
 Created on Sat Jun 27 10:07:25 2020
 
-@author: alfredli
 """
 
 from autoBooking import *
